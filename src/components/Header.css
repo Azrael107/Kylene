@@ -1,0 +1,55 @@
+/* Header Styles */
+.main-header {
+    background: linear-gradient(135deg, var(--color-primary) 0%, #e0486a 100%);
+    color: var(--color-text-light);
+    padding: 2rem 0 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.header-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+}
+
+.header-tagline {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .header-title {
+        font-size: 2.8rem;
+    }
+
+    .header-tagline {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-title {
+        font-size: 2.2rem;
+    }
+
+    .header-tagline {
+        font-size: 1rem;
+    }
+}
+
