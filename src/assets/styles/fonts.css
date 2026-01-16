@@ -1,0 +1,11 @@
+/* Katlina Birthday/Date Font */
+/* Font file is in src/assets/fonts/ */
+
+@font-face {
+  font-family: 'Katlina Birthday';
+  src: url('../fonts/KatlinaBirthdate.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

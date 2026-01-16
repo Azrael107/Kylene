@@ -1,0 +1,95 @@
+/* Intro Section */
+.intro-section {
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.intro-container {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.intro-container .section-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.intro-content {
+    /* Container for image and text wrapping */
+}
+
+.intro-paragraph {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* What I Do Differently Section */
+.what-i-do-different {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    background: rgba(254, 146, 192, 0.1);
+    clear: both;
+    border-radius: 8px;
+}
+
+.different-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.different-list {
+    list-style: none;
+    padding: 0;
+}
+
+.different-list li {
+    padding: 1rem 0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+.different-list li em {
+    color: var(--color-primary);
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Clear float after content */
+.intro-content::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .profile-image-container {
+        float: none;
+        margin: 0 auto 2rem;
+        display: block;
+    }
+
+    .different-title {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .intro-container {
+        padding: 1.5rem;
+    }
+
+    .different-title {
+        font-size: 1.6rem;
+    }
+}
+
