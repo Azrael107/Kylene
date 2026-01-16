@@ -1,17 +1,19 @@
 import React from 'react';
-import Header from './components/Header';
-import IntroSection from './components/IntroSection';
-import FeaturesSection from './components/FeaturesSection';
-import Footer from './components/Footer';
+import ParallaxStars from './components/common/ParallaxStars';
+import Header from './components/layout/Header';
+import IntroSection from './components/sections/IntroSection';
+import ReviewsSection from './components/sections/ReviewsSection';
+import Footer from './components/layout/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <ParallaxStars />
       <Header />
       <main className="main-content">
         <IntroSection />
-        <FeaturesSection />
+        <ReviewsSection />
       </main>
       <Footer />
     </div>

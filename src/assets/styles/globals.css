@@ -1,0 +1,7 @@
+/* Import other global styles */
+@import './variables.css';
+@import './reset.css';
+@import './fonts.css';
+
+/* Additional global styles can go here */
+

@@ -1,0 +1,22 @@
+/* Header Styles */
+.main-header {
+    background: linear-gradient(135deg, var(--color-primary) 0%, #e0486a 100%);
+    color: var(--color-text-light);
+    padding: 2rem 0 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+    .main-header {
+        padding: 1.5rem 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-header {
+        padding: 1rem 0 0;
+    }
+}
+

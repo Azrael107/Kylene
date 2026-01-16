@@ -1,0 +1,10 @@
+/* CSS Variables */
+:root {
+    --color-primary: #F05276;      /* Strong pink-magenta - header */
+    --color-secondary: #FE92C0;    /* Soft pink */
+    --color-accent: #FF915E;       /* Peach/orange */
+    --color-text-dark: #2c2c2c;
+    --color-text-light: #ffffff;
+    --color-bg-light: #fafafa;
+}
+

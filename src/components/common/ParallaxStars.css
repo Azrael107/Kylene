@@ -1,0 +1,21 @@
+.parallax-letters-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400vh;
+    overflow: hidden;
+    z-index: -1;
+    pointer-events: none;
+    will-change: transform;
+}
+
+.random-letter {
+    position: absolute;
+    color: var(--color-secondary);
+    font-family: 'Katlina Birthday', 'Dancing Script', cursive, sans-serif;
+    font-weight: normal;
+    user-select: none;
+    transform-origin: center;
+}
+
