@@ -2,6 +2,8 @@ import React from 'react';
 import './NavLink.css';
 
 const NavLink = ({ href, label, isActive, onClick }) => {
+  const letters = label.split('');
+
   return (
     <li>
       <a
@@ -12,7 +14,15 @@ const NavLink = ({ href, label, isActive, onClick }) => {
           onClick();
         }}
       >
-        {label}
+        {letters.map((letter, index) => (
+          <span
+            key={index}
+            className="nav-letter"
+            style={{ animationDelay: `${index * 0.05}s` }}
+          >
+            {letter === ' ' ? '\u00A0' : letter}
+          </span>
+        ))}
       </a>
     </li>
   );

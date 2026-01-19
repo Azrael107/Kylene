@@ -2,7 +2,7 @@ import React from 'react';
 import ParallaxStars from './components/common/ParallaxStars';
 import Header from './components/layout/Header';
 import IntroSection from './components/sections/IntroSection';
-import ReviewsSection from './components/sections/ReviewsSection';
+// import ReviewsSection from './components/sections/ReviewsSection'; // Disabled - not allowed on website
 import Footer from './components/layout/Footer';
 import './App.css';
 
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <main className="main-content">
         <IntroSection />
-        <ReviewsSection />
+        {/* <ReviewsSection /> */}
       </main>
       <Footer />
     </div>
