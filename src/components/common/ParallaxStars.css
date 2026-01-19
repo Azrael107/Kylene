@@ -12,7 +12,7 @@
 
 .random-letter {
     position: absolute;
-    color: var(--color-secondary);
+    color: #9B7EDE;
     font-family: 'Katlina Birthday', 'Dancing Script', cursive, sans-serif;
     font-weight: normal;
     user-select: none;

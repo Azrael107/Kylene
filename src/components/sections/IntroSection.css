@@ -40,7 +40,7 @@
 .different-title {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
-    color: var(--color-primary);
+    color: #9B7EDE;
     margin-bottom: 1.5rem;
     font-weight: 700;
 }
@@ -58,7 +58,7 @@
 }
 
 .different-list li em {
-    color: var(--color-primary);
+    color: #9B7EDE;
     font-style: italic;
     font-weight: 600;
 }

@@ -21,7 +21,7 @@ const ParallaxStars = () => {
   const generateLetters = () => {
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const letters = [];
-    for (let i = 0; i < 300; i++) {
+    for (let i = 0; i < 500; i++) {
       letters.push({
         id: i,
         letter: alphabet[Math.floor(Math.random() * alphabet.length)],

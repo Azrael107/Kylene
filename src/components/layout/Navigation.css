@@ -56,6 +56,23 @@
     margin: 0;
 }
 
+.nav-letter {
+    display: inline-block;
+}
+
+.nav-menu a:hover .nav-letter {
+    animation: letterJump 0.4s ease-out backwards;
+}
+
+@keyframes letterJump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
 .nav-menu a {
     display: block;
     padding: 1rem 1.5rem;
@@ -63,17 +80,19 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 1rem;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     border-bottom: 3px solid transparent;
-    text-transform: capitalize;
+    text-transform: none;
     cursor: pointer;
+    transform: translateY(0);
 }
 
 .nav-menu a:hover,
 .nav-menu a.active {
     background-color: rgba(255, 255, 255, 0.1);
-    border-bottom-color: var(--color-accent);
+    border-bottom-color: var(--color-secondary);
     color: var(--color-text-light);
+    transform: translateY(-2px);
 }
 
 /* Responsive Design */
